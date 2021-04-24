@@ -4,7 +4,7 @@
   "description": "Opinionated NodeJS CLI for generating React components",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,9 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^8.0.0"
   }
 }
