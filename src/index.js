@@ -31,7 +31,7 @@ inquirer
         "Creating Component Templates with name: ".blue + componentName.magenta
       );
 
-      const componentDirectory = `${process.cwd()}/src/${componentName}`;
+      const componentDirectory = `${process.cwd()}/src/components/${componentName}`;
 
       if (fs.existsSync(componentDirectory)) {
         console.error(`Component ${componentName} already exists.`.red);
@@ -56,11 +56,11 @@ inquirer
           componentDirectory.magenta
       );
     }
-    console.log(answers);
   })
   .catch((error) => {
     if (error.isTtyError) {
       // Prompt couldn't be rendered in the current environment
+      console.log(error);
     } else {
       // Something else went wrong
       console.log(error);
