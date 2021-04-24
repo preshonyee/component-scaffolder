@@ -31,7 +31,7 @@ inquirer
         "Creating Component Templates with name: ".blue + componentName.magenta
       );
 
-      const componentDirectory = `${__dirname}/${componentName}`;
+      const componentDirectory = `${process.cwd()}/src/${componentName}`;
 
       if (fs.existsSync(componentDirectory)) {
         console.error(`Component ${componentName} already exists.`.red);
