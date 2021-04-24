@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 require("colors");
 const inquirer = require("inquirer");
 const fs = require("fs");

@@ -1,8 +1,9 @@
 {
-  "name": "component-scaffolder",
+  "name": "@preshonyee/component-scaffolder",
   "version": "1.0.0",
   "description": "Opinionated NodeJS CLI for generating React components",
-  "main": "index.js",
+  "main": "src/index.js",
+  "bin": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
   },
@@ -11,11 +12,11 @@
     "url": "git+https://github.com/Preshonyee/component-scaffolder.git"
   },
   "keywords": [
-    "react",
-    "component",
-    "generator"
+    "react component generator",
+    "component generator",
+    "component scaffold"
   ],
-  "author": "preshonyee",
+  "author": "Presh Onyee",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Preshonyee/component-scaffolder/issues"
