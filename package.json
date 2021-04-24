@@ -1,5 +1,5 @@
 {
-  "name": "@preshonyee/component-scaffolder",
+  "name": "component-scaffolder",
   "version": "1.0.0",
   "description": "Opinionated NodeJS CLI for generating React components",
   "main": "src/index.js",
